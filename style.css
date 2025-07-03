@@ -1,3 +1,15 @@
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.agdasima-bold {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* configuraciones Principales */
 
 * {
@@ -8,80 +20,74 @@
     color: white;
 }
 
-body {
-    background-image: url(./assets/istockphoto-915097804-1024x1024.jpg);
-    /* background-color: #27391C; */
-    height: 100vh;
-}
-
-
-/* contenedor Principal */
-.container  {
+.container {
+    background-color: black;
+    margin: 5rem ;
     display: flex;
-    justify-content: space-between;
-    margin: 3rem;
-}
-
-/* lateral izquierdo */
-header {
-    width: 40%;
-    height: 90vh;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 1rem
-}
-
-.titulo {
-    font-size: 8rem;
-}
-
-.sub-titulo {
-    font-size: 3.5rem;
-    padding-left: 2.8em;
-}
-
-.navegacion {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    margin: 20px auto;
-}
-
-.navegacion a {
-    text-decoration: none;
-    font-size: 2rem;
-}
-
-/* lateral derecho */
-
-.foto_principal {
-    width: auto;
-    height: auto;
-}
-
-.foto_principal img {
-    height: 90vh;
-}
-
-/* footer */
-
-footer {
-    display: flex;
-}
-
-.link {
-    border: 3px solid red;
-    width: 20px;
-}
-
-.link img {
-
-}
-
-.sociales {
+    flex-direction: column;
     
 }
 
-.logo {
+/* contenedor Principal */
 
+.emcabezado {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10rem;
+}
+
+.foto {
+    width: 8rem;
+}
+
+.Sub-titulo {
+    font-size: 1.5em;
+    font-family: "Agdasima", sans-serif;
+}
+
+.nombre {
+    font-family: "Anton", sans-serif;
+    position: absolute;
+    top: 170px;
+    font-size: 3rem;
+    color: rgb(24, 134, 24);
+}
+
+.foto_principal {
+    width: 9rem;
+}
+
+.divisor {
+    margin-top: 1.5em;
+    width: 60%;
+    height: 1px;
+    border: 1px rgb(24, 134, 24) solid;
+}
+
+.navegacion {
+    width: 50%;
+    height: auto;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+}
+
+.item {
+    list-style-type: none;
+    font-size: 1.7em;
+    font-family: "Agdasima", sans-serif;
+}
+
+.fotos {
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: .5em;
+    padding: 2rem;
 }

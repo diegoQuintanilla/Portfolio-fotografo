@@ -1,0 +1,8 @@
+requerimientos del index.html
+
+nombre y apellido con link a la pagina principal 
+links de carpetas (clasifciacion de fotos)
+una previa vista de las fotos realizadas 
+un contacto por mail, redes sociales.(accesos).
+
+
