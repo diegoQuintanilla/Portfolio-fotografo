@@ -1,51 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>*** Portfolio ***</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400&family=Anton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body class="container">
-    <header class="emcabezado">
-      <div class="emcabezado_logoFoto">
-        <h1 class="nombre">Facundo Di salvo</h1>
-        <a class="logo" href="index.html"><img class="foto" src="./assets/Screenshot_20250625-160504-removebg-preview.png" alt="logo"></a>
-        <h4 class="Sub-titulo">Fotografo Profesional</h4>
-      </div>
-      <div>
-        <img class="foto_principal" src="./assets/istockphoto-613519060-1024x1024-removebg-preview.png" alt="foto principal">
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+  <div class="principal">
+    
+    <!-- pagina 1 -->
+    <header class="encabezado">
+      <h1 class="tituloPrincipal">Black</h1>
+      <h2 class="tituloSecundario">owl.ph</h2>
     </header>
-    <hr class="divisor">
-    <nav class="navegacion">
-      <ul class="lista">
-        <li class="item">carpeta 1</li>
-        <li class="item">carpeta 2</li>
-        <li class="item">carpeta 3</li>
-        <li class="item">carpeta 4</li>
+    <button class="botonPrincipal">CLICK AQUI</button>
+  </div>
+
+  <!-- pagina 2 -->
+
+  <div class="secundario">
+    <ul class="listaCarpetas">
+      <li><a>Cobertura</a></li>
+      <li><a>Prensa</a></li>
+      <li><a>Contacto</a></li>
+    </ul>
+    
+    <div class="contenedorSecundario">
+      <ul class="fotos" id="fotos">
+        <li><img src="./assets/galeria/1.jpg" alt=""></li>
+        <li><img src="./assets/galeria/2.jpg" alt=""></li>
+        <li><img src="./assets/galeria/3.jpg" alt=""></li>
+        <li><img src="./assets/galeria/4.jpg" alt=""></li>
+        <li><img src="./assets/galeria/5.jpg" alt=""></li>
+        <li><img src="./assets/galeria/6.jpg" alt=""></li>
+        <li><img src="./assets/galeria/7.jpg" alt=""></li>
+        <li><img src="./assets/galeria/8.jpg" alt=""></li>
+        
       </ul>
-    </nav>
-<!-- seccion de fotos -->
-
-    <section class="cuerpo">
-      <article class="fotos">
-        <img src="./assets/images.jpg" alt="fotos de muestra">
-        <img src="./assets/images.jpg" alt="fotos de muestra">
-        <img src="./assets/images.jpg" alt="fotos de muestra">
-        <img src="./assets/images.jpg" alt="fotos de muestra">
-        <img src="./assets/images.jpg" alt="fotos de muestra">
-        <img src="./assets/images.jpg" alt="fotos de muestra">
-        <img src="./assets/images.jpg" alt="fotos de muestra">
-        <img src="./assets/images.jpg" alt="fotos de muestra">
-        <img src="./assets/images.jpg" alt="fotos de muestra">
-        <img src="./assets/images.jpg" alt="fotos de muestra">
-      </article>
-    </section>
-
-  </body>
+      <!-- confugurar conexion con base de datos   -->
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
 </html>
-  
+
+
